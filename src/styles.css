@@ -1,3 +1,12 @@
+* {
+  font-family: Lato; sans-serif;
+
+}
+.album-list {
+  justify-content:center;
+  display: flex;
+}
+
 .container {
   display: grid;
   height: 100vh;
@@ -10,16 +19,26 @@
   grid-gap: 0.5rem;
 }
 
+h1 {
+  font-size: 2rem;
+  justify-content:center;
+  display: flex;
+}
+
+p {
+  justify-content:center;
+  display: flex;
+}
+
 nav {
-  background:grey;
+  background: url(../assets/spoon-logo.jpeg);
   grid-area: nav;
 }
 
 main {
-  background: #40e0d0;
+  background: #9A9B9C;
   grid-area: main;
 }
-
 
 #content1 {
   background: #90ee90;
