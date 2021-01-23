@@ -11,16 +11,28 @@
   display: grid;
   height: 100vh;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-auto-rows: 0.4fr 1fr 1fr;
+  grid-auto-rows: 0.5fr 1fr 1fr;
   grid-template-areas:
   "nav nav nav"
   "main main main"
   "content1 content2 content3";
   grid-gap: 0.5rem;
+  margin: auto;
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  justify-content:center;
+  display: flex;
+}
+
+h2 {
+  justify-content:center;
+  display: flex;
+  font-size: 1.0rem;
+}
+
+h3 {
   justify-content:center;
   display: flex;
 }
@@ -41,17 +53,17 @@ main {
 }
 
 #content1 {
-  background: #90ee90;
+  background: #7791AC;
   grid-area: content1;
 }
 
 #content2 {
-  background: #a4c639;
+  background: #7791AC;
   grid-area: content2;
 }
 
 #content3 {
-  background: #008000;
+  background: #7791AC;
   grid-area: content3;
 }
 
@@ -67,4 +79,18 @@ main {
     "content2"
     "content3";
   }
+
+  .iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 }
