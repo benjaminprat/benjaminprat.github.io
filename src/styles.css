@@ -21,7 +21,7 @@
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: 3vw;
   justify-content:center;
   display: flex;
 }
@@ -29,12 +29,13 @@ h1 {
 h2 {
   justify-content:center;
   display: flex;
-  font-size: 1.0rem;
+  font-size: 1.2vw;
 }
 
 h3 {
   justify-content:center;
   display: flex;
+  color:#FFFFFF;
 }
 
 h3:hover{
@@ -54,6 +55,12 @@ nav {
   opacity: 85%
 }
 
+img:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
 main {
   background: #9A9B9C;
   grid-area: main;
@@ -62,23 +69,27 @@ main {
 #content1 {
   background: #464B4F;
   grid-area: content1;
+  border: 5px ridge #7791AC;
 }
 
 #content2 {
   background: #464B4F;
   grid-area: content2;
+  border: 5px ridge #7791AC;
 }
 
 #content3 {
   background: #464B4F;
   grid-area: content3;
+  border: 5px ridge #7791AC;
 }
 
 li:hover {
   color:#ffffff;
 }
 
-@media screen and (max-width: 600px) {
+
+@media screen and (max-width: 900px) {
   .container {
     grid-template-columns: 1fr;
     grid-template-rows: 0.4fr 2.2fr 1.5fr 1.5fr 1.5fr;
@@ -90,6 +101,13 @@ li:hover {
     "content3";
   }
 
+/* h1 {
+  font-size: 2vw;
+} */
+
+/* h2 {
+  font-size: 2vw;
+} */
   .iframe-container{
   position: relative;
   width: 100%;
