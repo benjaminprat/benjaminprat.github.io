@@ -5,7 +5,7 @@
 
 
 ## Overview & Goals
- Fan Site is a pre-work assignment for Wyncode Academy's immersive Full Stack program. I was tasked  to build a static site using HTML & CSS for the subject matter of my choice. I chose my favorite musical artist, Spoon. 
+ Fan Site is a static site using HTML & CSS for the subject matter of my choice. I chose my favorite musical artist, Spoon. 
 
 ## Technologies 
 * HTML
